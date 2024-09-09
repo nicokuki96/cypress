@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cypress": "^13.14.2"
+  },
+  "scripts": {
+    "test:e2e": "cypress run",
+    "pruebas-edge": "cypress run --spec cypress/e2e/sign-up_tests.cy.js --browser edge",
+    "pruebas-chrome": "cypress run --spec cypress/e2e/sign-up_tests.cy.js --browser chrome",
+    "pruebas-firefox": "cypress run --spec cypress/e2e/sign-up_tests.cy.js --browser firefox"
+  }
+}
